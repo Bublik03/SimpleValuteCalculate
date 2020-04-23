@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.valutecalculator">
+    package="com.example.valcalc">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,27 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HistoryActivity">
-            <intent-filter>
-                <action android:name=".HistoryActivity"/>
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".CalculatorActivity">
-            <intent-filter>
-                <action android:name=".CalculatorActivity"/>
-
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-        </activity>
-        <activity android:name=".RateActivity">
-            <intent-filter>
-                <action android:name=".RateActivity" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".ArchiveActivity"></activity>
+        <activity android:name=".ConverterActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

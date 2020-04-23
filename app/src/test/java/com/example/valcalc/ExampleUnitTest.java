@@ -1,4 +1,4 @@
-package com.example.valutecalculator;
+package com.example.valcalc;
 
 import org.junit.Test;
 

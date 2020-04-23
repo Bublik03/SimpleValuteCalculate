@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">ValuteCalculator</string>
+    <string name="app_name">My Application</string>
+    <string-array name="ValuteArray">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>RUB</item>
+        <item>JPY</item>
+    </string-array>
+    <string name="Converter">Converter</string>
+    <string name="Save">Save</string>
+    <string name="Archive">Archive</string>
 </resources>
